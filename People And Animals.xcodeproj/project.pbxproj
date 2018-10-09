@@ -16,7 +16,6 @@
 		6C59FBA3216CBC2900EB3841 /* People_And_AnimalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59FBA2216CBC2900EB3841 /* People_And_AnimalsUITests.swift */; };
 		6C59FBB1216CBE0700EB3841 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59FBB0216CBE0700EB3841 /* People.swift */; };
 		6C59FBB3216CBE7400EB3841 /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59FBB2216CBE7400EB3841 /* PeopleTableViewController.swift */; };
-		6C59FBB7216CD7BC00EB3841 /* AnimalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C59FBB6216CD7BC00EB3841 /* AnimalsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		6C59FBA4216CBC2900EB3841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C59FBB0216CBE0700EB3841 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		6C59FBB2216CBE7400EB3841 /* PeopleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
-		6C59FBB6216CD7BC00EB3841 /* AnimalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				6C59FB82216CBC2800EB3841 /* AppDelegate.swift */,
-				6C59FBB5216CD79100EB3841 /* Table View Controller */,
+				6C59FBB5216CD79100EB3841 /* View Controller */,
 				6C59FBB8216CD7D900EB3841 /* People */,
 				6C59FB86216CBC2800EB3841 /* Main.storyboard */,
 				6C59FB89216CBC2900EB3841 /* Assets.xcassets */,
@@ -132,14 +130,13 @@
 			path = "People And AnimalsUITests";
 			sourceTree = "<group>";
 		};
-		6C59FBB5216CD79100EB3841 /* Table View Controller */ = {
+		6C59FBB5216CD79100EB3841 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
 				6C59FBB2216CBE7400EB3841 /* PeopleTableViewController.swift */,
 				6C59FB84216CBC2800EB3841 /* ViewController.swift */,
-				6C59FBB6216CD7BC00EB3841 /* AnimalsTableViewController.swift */,
 			);
-			path = "Table View Controller";
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 		6C59FBB8216CD7D900EB3841 /* People */ = {
@@ -282,7 +279,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C59FB85216CBC2800EB3841 /* ViewController.swift in Sources */,
-				6C59FBB7216CD7BC00EB3841 /* AnimalsTableViewController.swift in Sources */,
 				6C59FBB1216CBE0700EB3841 /* People.swift in Sources */,
 				6C59FBB3216CBE7400EB3841 /* PeopleTableViewController.swift in Sources */,
 				6C59FB83216CBC2800EB3841 /* AppDelegate.swift in Sources */,
